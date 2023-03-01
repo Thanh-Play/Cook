@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: black;
+    margin: 0;
+    font-family: "Times";
+    font-size: 17px;
+  }
+  
+  .responsive-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+  
+  }
+  .content {
+    position: absolute;
+    bottom: 0;
+    background: rgba(160, 31, 31, 0.158);
+    color: #a39d9d;
+    width: 100%;
+    padding: 25px;
+  }
+
+  #poem {
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  #hpoem {
+    font-family :'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
