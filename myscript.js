@@ -6,4 +6,5 @@ function changePoem() {
 function changeBack() {
     document.getElementById("poem").innerHTML = ogPara;
     document.getElementById("hpoem").innerHTML = ogHead;
+    document.getElementById("poem").scrollIntoView();
 }
